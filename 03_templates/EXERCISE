@@ -1,0 +1,23 @@
+Run `terraform apply`.
+
+It's going to fail. This is the first time you use an external provider code (`Local`) 
+through `local_file` resource. And the `Template` of course. You need to get if first.
+
+Run `terraform init`.
+
+
+Try run `terraform apply -auto-approve` again.
+
+
+Make it fail in a lot of different ways.
+Manipulate every piece of the code and see what happens.
+
+
+
+
+
+Ideas:
+- modify the file path, especially the `path.module` interpolation
+- modify the content of the template file in different ways
+- rename the template file to match the end result path
+- remove the `jsonencode` from the `foos` var in the template
