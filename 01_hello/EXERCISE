@@ -1,0 +1,2 @@
+1. Run `terraform apply` without parameters
+2. Run `terraform apply -var who=YOUR_NAME`
