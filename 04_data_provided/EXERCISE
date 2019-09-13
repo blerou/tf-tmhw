@@ -1,0 +1,19 @@
+#1
+
+Delete the `foo.file`.
+
+Run `terraform apply -auto-approve`.
+
+What happened?
+
+#2
+
+Restore the original state.
+
+Run `terraform apply -auto-approve` again.
+
+What happened with the output?
+What is the content of the `foo.file`?
+
+
+Play with this thing for a while.
